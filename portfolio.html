@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,87 +13,110 @@
 </head>
 
 <body>
-    <header>
-        <a class="header-logo" href="./index.html" lang="en"><span class="accent">Web</span>Studio</a>
-        <nav class="page-nav">
+    <header class="header">
+        <div class="container header-container">
+            <nav class="page-nav">
+                <a class="header-logo" href="./index.html"><span class="accent">Web</span>Studio</a>
                 <ul class="page-nav-list">
-                <li><a class="page-nav-link current" href="./index.html" >Студія</a></li>
-                <li><a class="page-nav-link" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="page-nav-link" href="">Контакти</a></li>
+                    <li  class="page-nav-item"><a class="page-nav-link" href="./index.html" >Studio</a></li>
+                    <li class="page-nav-item"><a class="page-nav-link current" href="./portfolio.html">Portfolio</a></li>
+                    <li class="page-nav-item"><a class="page-nav-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <ul class="auth-list">
+                <li class="auth-list-item"><a class="auth-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="auth-list-item"><a class="auth-list-link" href="tel:+12127724150">+1 212-772-4150</a></li>
             </ul>
-        </nav>
-        <ul class="auth-list">
-            <li><a class="auth-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="auth-list-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
-        <section class="portfolio">
-            <h2 hidden>portfolio</h2>
-            <ul class="portfolio-tabs-list">
-                <li><button class="portfolio-tabs-btn" type="button">Усі</button></li>
-                <li><button class="portfolio-tabs-btn" type="button">Веб-сайти</button></li>
-                <li><button class="portfolio-tabs-btn" type="button">Додатки</button></li>
-                <li><button class="portfolio-tabs-btn" type="button">Дизайн</button></li>
-                <li><button class="portfolio-tabs-btn" type="button">Маркетинг</button></li>
-            </ul>
-            <ul class="portfolio-cards-list">
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/1.jpg" alt="ноутбук" width="370" height="294">
-                    <h3 class="portfolio-card-title">Технокряк</h3>
-                    <p class="portfolio-card-text">Веб-сайт</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/2.jpg" alt="постер з баскетболістами" width="370" height="294">
-                    <h3 class="portfolio-card-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                    <p class="portfolio-card-text">Дизайн</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/3.jpg" alt="логотип ресторану" width="370" height="294">
-                    <h3 class="portfolio-card-title">Ресторан <span lang="en">Seafood</span></h3> <span
-                        lang="en"></span>
-                    <p class="portfolio-card-text">Додаток</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/4.jpg" alt="навушники" width="370" height="294">
-                    <h3 class="portfolio-card-title">Проєкт <span lang="en">Prime</span></h3>
-                    <p class="portfolio-card-text">Маркетинг</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/5.jpg" alt="коробки" width="370" height="294">
-                    <h3 class="portfolio-card-title">Проєкт <span lang="en">Boxes</span></h3>
-                    <p class="portfolio-card-text">Додаток</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/6.jpg" alt="монітор" width="370" height="294">
-                    <h3 class="portfolio-card-title" lang="en">Inspiration has no Borders</h3>
-                    <p class="portfolio-card-text">Веб-сайт</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/7.jpg" alt="журнал" width="370" height="294">
-                    <h3 class="portfolio-card-title">Видання <span lang="en">Limited Edition</span></h3>
-                    <p class="portfolio-card-text">Дизайн</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/8.jpg" alt="етикетка" width="370" height="294">
-                    <h3 class="portfolio-card-title">Проєкт <span lang="en">LAB</span></h3>
-                    <p class="portfolio-card-text">Маркетинг</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/portfolio/9.jpg" alt="ноутбук" width="370" height="294">
-                    <h3 class="portfolio-card-title" lang="en">Growing Business</h3>
-                    <p class="portfolio-portfolio-card-text">Додаток</p>
-                </li>
-            </ul>
+        <section class="section portfolio">
+            <div class="container">
+                <h2 hidden>portfolio</h2>
+                <ul class="portfolio-tabs-list">
+                    <li class="portfolio-tabs-item"><button class="portfolio-tabs-btn active" type="button">All</button></li>
+                    <li class="portfolio-tabs-item"><button class="portfolio-tabs-btn" type="button">Web-sites</button></li>
+                    <li class="portfolio-tabs-item"><button class="portfolio-tabs-btn" type="button">Apps</button></li>
+                    <li class="portfolio-tabs-item"><button class="portfolio-tabs-btn" type="button">Design</button></li>
+                    <li class="portfolio-tabs-item"><button class="portfolio-tabs-btn" type="button">Marketing</button></li>
+                </ul>
+                <ul class="portfolio-cards-list">
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/1.jpg" alt="laptop" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Technoduck</h3>
+                            <p class="portfolio-card-text">Web-site</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/2.jpg" alt="poster with players" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Poster New Orlean vs Golden Star</h3>
+                            <p class="portfolio-card-text">Design</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/3.jpg" alt="logo of the restaurant" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Seafood Restaurant</h3>
+                            <p class="portfolio-card-text">Apps</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/4.jpg" alt="headphones" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Project Prime</h3>
+                            <p class="portfolio-card-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/5.jpg" alt="boxes" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Project Boxes</h3>
+                            <p class="portfolio-card-text">Apps</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/6.jpg" alt="screen" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Inspiration has no Borders</h3>
+                            <p class="portfolio-card-text">Web-site</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/7.jpg" alt="magazine" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Limited Edition</h3>
+                            <p class="portfolio-card-text">Design</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/8.jpg" alt="label" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Project LAB</h3>
+                            <p class="portfolio-card-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card">
+                        <img src="./images/portfolio/9.jpg" alt="laptop" width="370" height="294">
+                        <div class="portfolio-card-content">
+                            <h3 class="portfolio-card-title">Growing Business</h3>
+                            <p class="portfolio-portfolio-card-text">Apps</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <a class="footer-logo" href="" lang="en"><span>Web</span>Studio</a>
-        <address class="address">
-            <p class="address-text">м. Київ, пр-т Лесі Українки, 26</p>
-            <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-            <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+        <div class="container">
+            <a class="footer-logo" href="./index.html"><span class="accent">Web</span>Studio</a>
+            <address class="address">
+                <p class="address-text">695 Park Ave, NY 10065, USA</p>
+                <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+                <a class="address-link" href="tel:+12127724150">+1 212-772-4150</a>
+            </address>
+        </div>
     </footer>
 </body>
 
