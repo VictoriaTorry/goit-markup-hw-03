@@ -1,0 +1,273 @@
+:root {
+  --primary-color: #212121;
+  --secondary-color: #2196f3;
+  --main-color: #757575;
+  --color-on-dark-bg: #ffffff;
+  --bg-color-light: #f5f5f5;
+  --bg-color-dark: #2f303a;
+  --bg-color-team: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+}
+/*==============COMPONENTS==============*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+/*==============END COMPONENTS==============*/
+
+/*==============HEADER==============*/
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-logo .accent {
+  color: var(--secondary-color);
+}
+
+.page-nav-list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.page-nav-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-nav-link:hover,
+.page-nav-link:focus {
+  color: var(--secondary-color);
+}
+
+.page-nav .link.current {
+  color: var(--secondary-color);
+}
+
+.auth-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.auth-list-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.auth-list-link:hover,
+.auth-list-link:focus {
+  color: var(--secondary-color);
+}
+/*==============END HEADER==============*/
+
+/*==============SECTION HERO==============*/
+.hero {
+  background-color: var(--bg-color-dark);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-on-dark-bg);
+}
+
+.hero-btn {
+  cursor: pointer;
+  background: var(--secondary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  color: var(--color-on-dark-bg);
+}
+
+/*==============END SECTION HERO==============*/
+
+/*==============SECTION FEATURES==============*/
+
+.features {
+  background-color: var(--bg-color-light);
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.features-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*==============END SECTION FEATURES==============*/
+
+/*==============SECTION WEDO==============*/
+
+.we-do {
+  background-color: var(--bg-color-light);
+}
+
+.we-do-list {
+  list-style: none;
+}
+
+/*==============END SECTION WEDO==============*/
+
+/*==============SECTION TEAM==============*/
+.team {
+  background-color: var(--bg-color-team);
+}
+.team-list {
+  list-style: none;
+}
+
+
+.team-list-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*==============END SECTION TEAM==============*/
+
+/*==============FOOTER==============*/
+.footer {
+  background-color: var(--bg-color-dark);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-logo span {
+  color: var(--secondary-color);
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--secondary-color);
+}
+/*============== END FOOTER==============*/
+
+/*============== SECTION PORTFOLIO==============*/
+
+.portfolio {
+  background-color: var(--bg-color-light);
+}
+
+.portfolio-tabs-list {
+  list-style: none;
+  font-weight: 500;
+
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+.portfolio-tabs-btn {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.portfolio-tabs-btn:hover,
+.portfolio-tabs-btn:focus {
+  background-color: var(--secondary-color);
+  color: var(--color-on-dark-bg);
+}
+
+.portfolio-cards-list {
+  list-style: none;
+}
+
+.portfolio-card {
+  background-color: var(--color-on-dark-bg);
+}
+
+.portfolio-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+}
+
+.portfolio-card-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/*============== END SECTION PORTFOLIO==============*/
