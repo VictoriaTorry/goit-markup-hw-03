@@ -7,6 +7,10 @@
   --bg-color-light: #f5f4fa;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -38,7 +42,7 @@ body {
 
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
