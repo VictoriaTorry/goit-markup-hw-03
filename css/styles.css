@@ -39,8 +39,6 @@ body {
   color: var(--main-color);
 }
 
-
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -391,6 +389,12 @@ body {
   margin-top: 30px;
   /* width: calc((100% - 90px) / 4); */
   background-color: var(--color-on-dark-bg);
+}
+
+.portfolio-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .portfolio-card-content {
