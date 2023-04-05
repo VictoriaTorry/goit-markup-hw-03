@@ -337,7 +337,7 @@ body {
 }
 
 .address-link {
-  display: inline-block;
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
